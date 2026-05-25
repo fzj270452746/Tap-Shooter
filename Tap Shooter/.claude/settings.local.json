@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -project \"Tap Shooter.xcodeproj\" -scheme \"Tap Shooter\" -sdk iphonesimulator -destination \"platform=iOS Simulator,name=iPhone 16\" build)",
+      "Bash(xcode-select -p)",
+      "Read(//Applications/**)",
+      "Bash(export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer)",
+      "Bash(xcrun simctl *)",
+      "Bash(xcodebuild -project \"Tap Shooter.xcodeproj\" -scheme \"Tap Shooter\" -sdk iphonesimulator -destination \"platform=iOS Simulator,name=iPhone 17\" build)",
+      "Bash(xcodebuild -project \"Tap Shooter.xcodeproj\" -scheme \"Tap Shooter\" -destination \"platform=iOS Simulator,name=iPhone 17\" build)",
+      "Bash(sudo xcode-select *)",
+      "Bash(xcodebuild -project \"/Users/hades/Desktop/code/待用/小游戏/0502-3/Tap Shooter/Tap Shooter.xcodeproj\" -scheme \"Tap Shooter\" -destination \"platform=iOS Simulator,name=iPhone 17\" build)",
+      "Bash(DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project \"/Users/hades/Desktop/code/待用/小游戏/0502-3/Tap Shooter/Tap Shooter.xcodeproj\" -scheme \"Tap Shooter\" -destination \"platform=iOS Simulator,name=iPhone 17\" build)"
+    ]
+  }
+}
